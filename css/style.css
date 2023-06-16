@@ -1,0 +1,138 @@
+/* importa uma fonte do google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Dekko&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #d3d3d3;
+    font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
+}
+.tela{
+    display: flex;
+}
+.imagem-fundo{
+    width: 100%;
+}
+.titulo-site{
+    font-family: 'Dekko', cursive;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+    margin: auto;
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #F23D3D;
+    background-color: #ffffff50;
+    text-shadow: 2px 2px 2px white;
+}
+.paragrafo-titulo{
+    font-family: 'Dekko', cursive;
+    color: #4D1313;
+    font-size: xx-large;
+}
+header{
+    background-color: #F23D3D;
+    width: 100%;
+}
+.header-formatacao{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    display: block;
+    width: 100px;
+    padding-inline: 20px;
+}
+.redes-sociais-referencia{
+    display: inline;
+    align-self: end;
+    padding-inline: 20px;
+}
+.redes-sociais-referencia span a img{
+    width: 20px;
+    padding: 1px;
+}
+nav{
+    background-color: lightgrey;
+    padding: 1px;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    padding-inline: 5px;
+    margin: auto;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #661A1A;
+    font-size: large;
+    font-weight: bolder;
+}
+nav ul li a:hover{
+    border-top-style: solid;
+}
+.containner{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.coluna{
+    display: inline;
+    flex: 1;
+    margin: 10px;
+    padding-inline: 10px;
+}
+.coluna h1{
+    font-size: 50px;
+    font-family: 'Dekko', cursive;
+    color: #F23D3D;
+    text-shadow: 2px 2px 3px black;
+    border-bottom-style: solid;
+    border-color: #4D1313;
+    text-align: center;
+}
+.texto-apresentacao{
+    max-width: 70%;
+}
+.texto-apresentacao p a{
+    font-family: 'Dekko', cursive;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #F23D3D;
+    border-radius: 20px;
+    padding: 5px;
+}
+.imagem-section{
+    padding-top: 75px;
+    max-width: 30%;
+}
+.imagem-section img{
+    max-width: 100%;
+    min-width: none;
+}
+footer{
+    background-color: #4D1313;
+    padding: 1px;
+    color: #d3d3d3;
+}
+.footer-formatacao{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-formatacao p{
+    display: block;
+    padding-inline: 10px;
+    align-self: center;
+    margin: auto;
+}
+.footer-formatacao a{
+    display: block;
+    padding-inline: 10px;
+    align-self: center;
+}
+
+

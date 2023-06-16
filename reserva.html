@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sabor Brasileiro Reserva</title>
+</head>
+<body>
+    <header id="topo">
+        <div class="header-formatacao">
+            <div class="logo">
+                <a href="Index.html"><img src="imagens/logo.png" alt="logo"></a>
+            </div>
+            <div class="redes-sociais-referencia">
+                <span>
+                    <a href=""><img src="imagens/redes-sociais/facebook.png" alt="facebook"></a>
+                </span>
+                <span>
+                    <a href=""><img src="imagens/redes-sociais/twitter.png" alt="Twitter"></a>
+                </span>
+                <span>
+                    <a href=""><img src="imagens/redes-sociais/linkedin.png" alt="Linkdin"></a>
+                </span>
+            </div>
+        </div>
+    </header>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="Index.html">HOME</a></li>
+                <li><a href="reserva.html">RESERVA</a></li>
+                <li><a href="cardapio.html">CARDÁPIO</a></li>
+                <li><a href="quem-somos.html">QUEM SOMOS</a></li>
+                <li><a href="delivery.html">DELIVERY</a></li>
+            </ul>
+        </nav>
+    </div><div class="tela">
+        <img class="imagem-fundo" src="imagens/imagem-feijoada1.png" alt="">
+        <div class="titulo-site">
+        <p class="paragrafo-titulo">SABOR BRASILEIRO</p>
+        <p>PRATOS TÍPICOS <br>comida caseira</p>
+        </div>
+    </div>
+    <main class="containner formulario">
+        <form action="reserva.php">
+            <label for="">Em nome de:</label>
+            <input type="text" name="nome" placeholder="Silva">
+            <label for="">Hora e data</label>
+            <input type="datetime-local" name="data-hora" id="" aria-invalid="false">
+            <label for="">quantos lugares</label>
+            <select name="lugares" id="">
+                <option value="1">2</option>
+                <option value="2">3</option>
+                <option value="3">4</option>
+                <option value="4">5</option>
+                <option value="5">6</option>
+            </select>
+        </form>
+    </main>
+    <footer>
+        <div class="footer-formatacao">
+            <p>Todos os Direitos reservados</p>
+            <a href="#topo"><abbr title="Ir para o topo"><img src="imagens/arrow_upward_FILL0_wght700_GRAD0_opsz40.png" alt="ir ao topo"></abbr></a>
+        </div>
+    </footer>
+</body>
+</html>
